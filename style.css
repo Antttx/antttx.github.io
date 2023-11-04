@@ -7,9 +7,9 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-left:50px;
+/*   padding-left:50px;
   padding-right: 50px;
-  padding-top: 150px;
+  padding-top: 150px; */
 }
 .text{
   font-family: Lobster;
