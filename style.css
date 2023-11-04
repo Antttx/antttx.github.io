@@ -1,9 +1,9 @@
 .wrapper{
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   box-sizing: border-box;
   background: url(bg.jpg) no-repeat center/100%;
-  font-size: 30px;
+  font-size: 25px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -11,16 +11,8 @@
   padding-right: 50px;
   padding-top: 150px;
 }
-@font-face {
-  font-family: 'Pacifico';
-  src: url('Pacifico-Regular.woff2') format('woff2'),
-      url('Pacifico-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
 .text{
-  font-family: Pacifico;
+  font-family: Lobster;
   color: #141414;
   line-height: 1.6em;
   margin-bottom: 50px;
