@@ -1,5 +1,17 @@
-.wrapper{
+@font-face {
+  font-family: 'Pacifico';
+  src: url('fonts/Pacifico-Regular.woff2') format('woff2'),
+      url('fonts/Pacifico-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+body{
   width: 100vw;
+  height: 100vh;
+}
+.wrapper{
+  width: 100%;
   height: 100%;
   box-sizing: border-box;
   background: url(bg.jpg) no-repeat center/100%;
@@ -7,20 +19,20 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding-top: 150px;
 /*   padding-left:50px;
-  padding-right: 50px;
-  padding-top: 150px; */
+  padding-right: 50px;*/
 }
 .text{
-  font-family: Lobster;
+  font-family: Pacifico, sans-serif;
   color: #141414;
-  line-height: 1.6em;
+  line-height: 1.1em;
   margin-bottom: 50px;
 }
 .wrapper__header{
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 .wrapper__text{
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
