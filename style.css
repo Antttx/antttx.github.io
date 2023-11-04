@@ -6,16 +6,21 @@
   font-size: 30px;
   display: flex;
   flex-direction: column;
-/*   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
   text-align: center;
   padding-left:50px;
   padding-right: 50px;
-  padding-top: 150px; */
+  padding-top: 150px;
+}
+@font-face {
+  font-family: 'Pacifico';
+  src: url('Pacifico-Regular.woff2') format('woff2'),
+      url('Pacifico-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 .text{
-  font-family: Kablammo;
+  font-family: Pacifico;
   color: #141414;
   line-height: 1.6em;
   margin-bottom: 50px;
